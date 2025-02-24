@@ -13,11 +13,11 @@
         
         <title>Kugner Park</title>
 
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="Bouncing Ball.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap">
         <!-- css를 연결하는 부분, font도 연결 -->
         
-        <script src="main.js"></script>
+        
         <!-- js파일을 연결하는 부분 -->
     </head>
     <body>
@@ -32,7 +32,7 @@
             <lnb id="lnb">
                 
                 <a href="Bouncing Ball.html">
-                    <div class="lnb_list"><div class="lnb_text">Bouncing Ball</div></div>
+                    <div class="lnb_list_selected"><div class="lnb_text_selected">Bouncing Ball</div></div>
                 </a>
 
                 <a href="Find next.html">
@@ -43,8 +43,12 @@
                     <div class="lnb_list"><div class="lnb_text">Examples</div></div>
                 </a>
             </lnb>
-            <div id="showing_part"><div id="showing_text">Park's Showing Part</div>
+            <canvas id="showing_part"></canvas>
             </div>
         </main>
     </body>
+    <div class="explain_area"></div>
+    <div class="explain_area2"></div>
+    <script src="Bouncing Ball.js"></script>
+    
 </html>
